@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <FunkcijskaKomponenta age={korisnici[0].age} name={korisnici[0].name} />
-      <DrugaFunkcijskaKomponenta age={korisnici[1].age} name={korisnici[1].name} />
+      <DrugaFunkcijskaKomponenta age={korisnici[1].age} name={korisnici[1].name}>...i još neki tekst</DrugaFunkcijskaKomponenta>
       <KlasnaKomponenta age={korisnici[2].age} name={korisnici[2].name} />
     </div>
   );
