@@ -1,8 +1,8 @@
-const FunkcijskaKompa = () => {
+const FunkcijskaKompa = ({ name, age }) => {
     return (
         <div>
             <h2>Funkcijska komponenta</h2>
-            <p>tekst prve komponente</p>
+            <p>Zovem se {name} i imam {age} godina</p>
         </div>
     );
 };
