@@ -1,4 +1,4 @@
-const FunkcijskaKompa = ({ name, age }) => {
+const FunkcijskaKomponenta = ({ name, age }) => {
     return (
         <div>
             <h2>Funkcijska komponenta</h2>
@@ -7,4 +7,4 @@ const FunkcijskaKompa = ({ name, age }) => {
     );
 };
 
-export default FunkcijskaKompa;
+export default FunkcijskaKomponenta;

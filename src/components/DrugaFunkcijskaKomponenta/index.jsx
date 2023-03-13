@@ -1,4 +1,4 @@
-const DrugaFunkcijskaKompa = ({ name, age, children }) => {
+const DrugaFunkcijskaKomponenta = ({ name, age, children }) => {
     
     return (
         <div>
@@ -9,4 +9,4 @@ const DrugaFunkcijskaKompa = ({ name, age, children }) => {
     );
 };
 
-export default DrugaFunkcijskaKompa;
+export default DrugaFunkcijskaKomponenta;
